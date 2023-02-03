@@ -3,18 +3,16 @@
 #include <Arduino.h>
 #include <SPI.h>
 
-#define WIFI_SSID "Bhatti Hostel(1F)2.4GHz"
-#define WIFI_PASSWORD "123456677"
+#define WIFI_SSID "wifi_name"
+#define WIFI_PASSWORD "wifi_password"
 #define RED 18
 #define GREEN 23
 #define BLUE 19
-// #define API_KEY "AIzaSyBQWXIzgv66IqOBWpdNwEsf9nPWjnB9aCc" // mine
-// #define FIREBASE_PROJECT_ID "firestoretest-bb434"
 
-#define API_KEY "AIzaSyBj8RsT8ekXCs832OwJeFa9Nz-CTK-emWg" // wasey
-#define FIREBASE_PROJECT_ID "health-care-d5deb"
-#define USER_EMAIL "hamid@fyp.com"
-#define USER_PASSWORD "cui123"
+#define API_KEY "Copy and paste your API key here"
+#define FIREBASE_PROJECT_ID "your project id"
+#define USER_EMAIL "authentic email"
+#define USER_PASSWORD "password"
 
 static Network *instance = NULL;
 
