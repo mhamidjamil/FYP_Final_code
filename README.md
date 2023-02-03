@@ -13,5 +13,4 @@
     
     
  # Work flow: 
-              My signal kit read data of patient vitals (code_1) and transmit it to esp32 using esp8266 local                 area network (code 2).Esp8266 server connected with esp32 send all data to esp32 via TX pin                     (don't forget to common there ground), esp32 will
-              upload that data to firbase(code_3).
+My signal kit read data of patient vitals (code_1) and transmit it to esp32 using esp8266 local area network (code 2).Esp8266 server connected with esp32 send all data to esp32 via TX pin (don't forget to common there ground), esp32 will upload that data to firbase(code_3).
